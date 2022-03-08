@@ -1,0 +1,42 @@
+.active {
+  font-weight: 500;
+  border-bottom: var(--yellow) solid 2px;
+  color: var(--yellow) !important;
+}
+
+/* navBar */
+.navbar {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+.navbar .container {
+  padding: 0 25px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.navbar-brand span {
+  font-weight: 500;
+}
+
+.navbar-toggler i {
+  color: var(--white);
+  font-size: 30px;
+}
+
+.navbar a,
+.navbar a:active {
+  color: var(--white);
+}
+
+.navbar a span,
+.navbar a:hover,
+.navbar a:focus {
+  color: var(--yellow);
+}

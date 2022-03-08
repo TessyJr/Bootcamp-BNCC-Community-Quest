@@ -1,0 +1,23 @@
+:root {
+  --black: #222831;
+  --grey: #393e46;
+  --yellow: #ffd369;
+  --white: #eeeeee;
+}
+
+* {
+  font-family: "Poppins";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+a:hover {
+  color: var(--yellow);
+}
