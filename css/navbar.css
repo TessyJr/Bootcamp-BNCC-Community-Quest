@@ -40,3 +40,139 @@
 .navbar a:focus {
   color: var(--yellow);
 }
+
+/* Media Query */
+@media only screen and (max-width: 1199px) {
+  #hero .container p:nth-child(1) {
+    font-size: 52px;
+  }
+
+  #hero .container p:nth-child(2) {
+    font-size: 22px;
+  }
+
+  #about .container h1,
+  #service .container .serviceHeader h1,
+  #work .container h1 {
+    font-size: 44px;
+  }
+
+  #about .container p,
+  #about .container .btnContainer a button {
+    font-size: 18px;
+  }
+
+  #work
+    .container
+    .carousel-inner
+    .carousel-item
+    .carousel-item-container
+    .carousel-item-desc
+    h1 {
+    font-size: 40px;
+  }
+
+  #work
+    .container
+    .carousel-inner
+    .carousel-item
+    .carousel-item-container
+    .carousel-item-desc
+    p {
+    font-size: 18px;
+  }
+
+  #contact .container .contactText h1 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #hero .container p:nth-child(1) {
+    font-size: 44px;
+    width: 90%;
+  }
+
+  #hero .container p:nth-child(2) {
+    font-size: 20px;
+  }
+
+  #about .container h1,
+  #service .container .serviceHeader h1,
+  #work .container h1 {
+    font-size: 40px;
+  }
+
+  #about .container p,
+  #about .container .btnContainer a button {
+    font-size: 16px;
+  }
+
+  #work .container .carousel-inner .carousel-item .carousel-item-container img,
+  #work
+    .container
+    .carousel-inner
+    .carousel-item
+    .carousel-item-container
+    .carousel-item-desc {
+    width: 100%;
+  }
+
+  #work .container .carousel-inner .carousel-item .carousel-item-container {
+    flex-direction: column;
+  }
+
+  #work
+    .container
+    .carousel-inner
+    .carousel-item
+    .carousel-item-container
+    .carousel-item-desc {
+    padding: 40px 40px;
+  }
+
+  #work
+    .container
+    .carousel-inner
+    .carousel-item
+    .carousel-item-container
+    .carousel-item-desc
+    h1 {
+    font-size: 36px;
+  }
+
+  #work
+    .container
+    .carousel-inner
+    .carousel-item
+    .carousel-item-container
+    .carousel-item-desc
+    p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #hero .container p:nth-child(1) {
+    font-size: 40px;
+    width: 100%;
+  }
+
+  #hero .container p:nth-child(2) {
+    font-size: 18px;
+  }
+
+  #about .container h1,
+  #service .container .serviceHeader h1,
+  #work .container h1 {
+    font-size: 36px;
+  }
+
+  #about .container p,
+  #about .container .btnContainer a button {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+}

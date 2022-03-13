@@ -1,0 +1,132 @@
+/* Meet the Team */
+#about {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+#about .container {
+  padding: 150px 40px 100px 40px;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about .container h1 {
+  font-size: 48px;
+}
+
+#about .container h1 span {
+  color: var(--yellow);
+}
+
+#about .container p {
+  font-size: 20px;
+}
+
+/* Team Member */
+#team {
+  min-height: 100vh;
+}
+#team .container {
+  padding: 100px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+#team .container .jakarta {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#team .container .jakarta h1 {
+  text-align: center;
+  font-size: 48px;
+}
+#team .container .jakarta .social {
+  display: flex;
+  gap: 20px;
+}
+#team .container .jakarta .social a:hover {
+  color: white;
+}
+#team .container .jakarta .social button {
+  width: 50%;
+  padding: 9px 16px;
+}
+#team .container .jakarta .social .instagram {
+  background: #f09433;
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+#team .container .jakarta .social .instagram:hover {
+  background-clip: text;
+
+  transition: 0.3s;
+}
+#team .container .jakarta .social .linkedin {
+  background-color: #0e76a8;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+}
+#team .container .bali {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#team .container .bali h1 {
+  text-align: center;
+  font-size: 48px;
+}
+#team .container .bali .social {
+  display: flex;
+  gap: 20px;
+}
+#team .container .bali .social a:hover {
+  color: white;
+}
+#team .container .bali .social button {
+  width: 50%;
+  padding: 9px 16px;
+}
+#team .container .bali .social .instagram {
+  background: #f09433;
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+#team .container .bali .social .instagram:hover {
+  background-clip: text;
+
+  transition: 0.3s;
+}
+#team .container .bali .social .linkedin {
+  background-color: #0e76a8;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+}

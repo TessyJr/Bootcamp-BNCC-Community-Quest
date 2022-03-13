@@ -1,0 +1,233 @@
+/* Footer */
+#footer {
+  background-color: var(--black);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#footer .container:nth-child(1) {
+  padding: 100px 40px 0 40px;
+}
+
+#footer .container:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+#footer .container .footerContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#footer .container .copyright {
+  text-align: center;
+}
+
+#footer .container .footerContent .footerLeft,
+#footer .container .footerContent .footerMid,
+#footer .container .footerContent .footerRight {
+  flex: 1 1 200px;
+}
+
+#footer .container .footerContent .footerLeft h1 span {
+  color: var(--yellow);
+}
+
+#footer .container .footerContent .footerMid {
+  text-align: center;
+}
+
+#footer .container .footerContent .footerRight {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#footer .container .footerContent .footerMid .links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#footer .container .footerContent .footerRight .subscribe form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#footer .container .footerContent .footerRight .subscribe form input {
+  width: 100%;
+  padding: 5px 10px;
+}
+#footer .container .footerContent .footerRight .subscribe form button {
+  width: 100%;
+  background-color: darkred;
+  color: var(--white);
+  border: darkred solid 1px;
+  padding: 5px 10px;
+  transition: 0.3s;
+}
+#footer .container .footerContent .footerRight .subscribe form button:hover {
+  width: 100%;
+  background-color: var(--white);
+  color: darkred;
+  border: darkred solid 1px;
+  padding: 5px 10px;
+  transition: 0.3s;
+}
+
+#footer .container .footerContent .footerRight .social .social-container {
+  display: flex;
+  gap: 10px;
+}
+
+#footer
+  .container
+  .footerContent
+  .footerRight
+  .social
+  .social-container
+  .facebook,
+#footer
+  .container
+  .footerContent
+  .footerRight
+  .social
+  .social-container
+  .twitter,
+#footer
+  .container
+  .footerContent
+  .footerRight
+  .social
+  .social-container
+  .linkedin,
+#footer
+  .container
+  .footerContent
+  .footerRight
+  .social
+  .social-container
+  .instagram {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: 0.5s;
+  font-size: 24px;
+}
+
+#footer
+  .container
+  .footerContent
+  .footerRight
+  .social
+  .social-container
+  .facebook {
+  color: #3b5998;
+}
+
+#footer
+  .container
+  .footerContent
+  .footerRight
+  .social
+  .social-container
+  .facebook:hover {
+  background-color: #3b5998;
+  color: white;
+  transition: 0.5s;
+}
+
+#footer
+  .container
+  .footerContent
+  .footerRight
+  .social
+  .social-container
+  .twitter {
+  color: #08a0e9;
+}
+#footer
+  .container
+  .footerContent
+  .footerRight
+  .social
+  .social-container
+  .twitter:hover {
+  background-color: #08a0e9;
+  color: white;
+  transition: 0.5s;
+}
+
+#footer
+  .container
+  .footerContent
+  .footerRight
+  .social
+  .social-container
+  .linkedin {
+  color: #0077b5;
+}
+#footer
+  .container
+  .footerContent
+  .footerRight
+  .social
+  .social-container
+  .linkedin:hover {
+  background-color: #0077b5;
+  color: white;
+  transition: 0.5s;
+}
+
+#footer
+  .container
+  .footerContent
+  .footerRight
+  .social
+  .social-container
+  .instagram {
+  color: #de1b85;
+}
+#footer
+  .container
+  .footerContent
+  .footerRight
+  .social
+  .social-container
+  .instagram:hover {
+  background-color: #de1b85;
+  color: white;
+  transition: 0.5s;
+}
+
+/* Media Query */
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (max-width: 991px) {
+  #footer .container .footerContent .footerRight {
+    text-align: center;
+    padding-top: 50px;
+    gap: 50px;
+  }
+
+  #footer .container .footerContent .footerRight .social .social-container {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 767px) {
+  #footer .container .footerContent .footerMid {
+    padding-top: 50px;
+  }
+}
