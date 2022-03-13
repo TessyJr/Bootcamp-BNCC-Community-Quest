@@ -51,6 +51,9 @@
   align-items: center;
   gap: 10px;
 }
+#footer .container .footerContent .footerMid .links a:hover {
+  color: var(--yellow);
+}
 
 #footer .container .footerContent .footerRight .subscribe form {
   display: flex;

@@ -25,6 +25,7 @@
 }
 
 /* Team Member */
+/* Jakarta */
 #team {
   min-height: 100vh;
 }
@@ -47,12 +48,12 @@
   display: flex;
   gap: 20px;
 }
-#team .container .jakarta .social a:hover {
-  color: white;
-}
-#team .container .jakarta .social button {
+.container .jakarta .social button {
   width: 50%;
   padding: 9px 16px;
+}
+.container .jakarta .social button a {
+  color: white;
 }
 #team .container .jakarta .social .instagram {
   background: #f09433;
@@ -64,24 +65,21 @@
     #cc2366 75%,
     #bc1888 100%
   );
-  color: white;
+  color: #cc2366;
   border: none;
   border-radius: 5px;
   font-size: 20px;
   transition: 0.3s;
 }
-#team .container .jakarta .social .instagram:hover {
-  background-clip: text;
-
-  transition: 0.3s;
-}
-#team .container .jakarta .social .linkedin {
+.container .jakarta .social .linkedin {
   background-color: #0e76a8;
   color: white;
   font-size: 20px;
   border-radius: 5px;
   border: none;
 }
+
+/* Bali */
 #team .container .bali {
   display: flex;
   flex-direction: column;
@@ -129,4 +127,32 @@
   font-size: 20px;
   border-radius: 5px;
   border: none;
+}
+
+/* Media Query */
+@media only screen and (max-width: 1399px) {
+  #team .container .jakarta .social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #team .container .jakarta .social button {
+    width: 100%;
+    padding: 9px 16px;
+  }
+  #team .container .bali .social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #team .container .bali .social button {
+    width: 100%;
+    padding: 9px 16px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 767px) {
 }
